@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background-color: #1b1b1d;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6rem;
+}
+
+/* loan calculator */
+.input-content input {
+    height: 30px;
+    width: 95%;
+    border: none;
+    padding: 0 1rem;
+    outline: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.color-dark {
+    color: #333333;
+}
+
+.span {
+    background-color: #9ab8bd;
+    width: 8%;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.form-input {
+    margin-top: 5rem;
+    background-color: #fcfcfc;
+    padding: 1.5rem;
+}
+
+.formatting {
+    display: flex;
+    border: #aec2c5 1px solid;
+    margin: 1.5rem 0rem;
+}
+
+.third-box {
+    /* width: 95%; */
+    border: #aec2c5 1px solid;
+    margin: 1.5rem 0rem;
+}
+
+.btn input{
+    color: #fcfcfc;
+    background-color: #333333;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in all;
+}
+
+.btn input:hover {
+    background-color: #b5b2bd;
+    color: #333333;
+}
+
+/* results */
+.result-formatting {
+    margin: 1.3rem 0rem;
+}
+
+#results h4{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #333333;
+}
+
+.output span, .output input {
+    display: inline-block;
+    outline: none;
+    border: none;
+}
+
+.output input{
+    height: 30px;
+    padding: 0rem 1rem;
+}
+
+.output {
+    padding: 0.2rem;
+}
+
+/* image */
+#loading {
+    display: flex;
+    justify-content: center;
+}
+
+/* error */
+.alert {
+    padding: 0.5rem;
+    background-color: #f37b7b;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1rem 0rem;
+}
+
+/* hide display */
+#loading, #results {
+    display: none;
+}
